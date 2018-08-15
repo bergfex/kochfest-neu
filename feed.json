@@ -2,20 +2,20 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Kochfest",
     "description": "",
-    "home_page_url": "https://github.com/bergfex/kochfest-neu",
-    "feed_url": "https://github.com/bergfex/kochfest-neu/feed.json",
+    "home_page_url": "https://bergfex.github.io",
+    "feed_url": "https://bergfex.github.io/feed.json",
     "user_comment": "",
-    "icon": "https://github.com/bergfex/kochfest-neu/media/website/kochfest-home.png",
+    "icon": "https://bergfex.github.io/media/website/kochfest-home.png",
     "author": {
         "name": "Josef"
     },
     "items": [
         {
-            "id": "https://github.com/bergfex/kochfest-neu/kochfest/",
-            "url": "https://github.com/bergfex/kochfest-neu/kochfest/",
+            "id": "https://bergfex.github.io/kochfest/",
+            "url": "https://bergfex.github.io/kochfest/",
             "title": "Kochfest",
-            "content_html": "<img class=\"post__image--left\" src=\"https://github.com/bergfex/kochfest-neu/media/posts/1/kochfest-txt.gif\" alt=\"## Sie planen ein Fest? ### Ich helfe ihnen dabei! Ob Sie eine Familienfeier organsieren möchten, ein Fest für Freunde, eine Hochzeitsfeier oder mal ein Candlelight-Dinner nur zu zweit -  ich finde eine ganz individuelle Lösung für Sie. Und Sie selbst können ganz entspannt Gastgeber und Mittelpunkt ihres Festes sein - von Anfang an!\" width=\"445\" height=\"280\">",
-            "image": "https://github.com/bergfex/kochfest-neu/media/posts/1/",
+            "content_html": "<img class=\"post__image--left\" src=\"https://bergfex.github.io/media/posts/1/kochfest-txt.gif\" alt=\"## Sie planen ein Fest? ### Ich helfe ihnen dabei! Ob Sie eine Familienfeier organsieren möchten, ein Fest für Freunde, eine Hochzeitsfeier oder mal ein Candlelight-Dinner nur zu zweit -  ich finde eine ganz individuelle Lösung für Sie. Und Sie selbst können ganz entspannt Gastgeber und Mittelpunkt ihres Festes sein - von Anfang an!\" width=\"445\" height=\"280\">",
+            "image": "https://bergfex.github.io/media/posts/1/",
             "author": {
                 "name": "Josef"
             },
