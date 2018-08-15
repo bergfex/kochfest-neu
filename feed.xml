@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>Kochfest-neu</title>
+    <title>Kochfest</title>
     <link href="https://github.com/bergfex/kochfest-neu/feed.xml" rel="self" />
     <link href="https://github.com/bergfex/kochfest-neu" />
-    <updated>1970-01-01T01:00:00+01:00</updated>
+    <updated>2018-08-15T14:42:54+02:00</updated>
     <author>
         <name>Josef</name>
     </author>
     <id>https://github.com/bergfex/kochfest-neu</id>
 
+    <entry>
+        <title>Kochfest</title>
+        <author>
+            <name>Josef</name>
+        </author>
+        <link href="https://github.com/bergfex/kochfest-neu/kochfest/"/>
+        <id>https://github.com/bergfex/kochfest-neu/kochfest/</id>
+            <category term="Kochfest"/>
+
+        <updated>2018-08-15T14:01:15+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://github.com/bergfex/kochfest-neu/media/posts/1/" alt="" />
+                <img class="post__image--left" src="https://github.com/bergfex/kochfest-neu/media/posts/1/kochfest-txt.gif" alt="## Sie planen ein Fest? ### Ich helfe ihnen dabei! Ob Sie eine Familienfeier organsieren möchten, ein Fest für Freunde, eine Hochzeitsfeier oder mal ein Candlelight-Dinner nur zu zweit -  ich finde eine ganz individuelle Lösung für Sie. Und Sie selbst können ganz entspannt Gastgeber und Mittelpunkt ihres Festes sein - von Anfang an!" width="445" height="280">
+            ]]>
+        </content>
+    </entry>
 </feed>
