@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Koachen aus Leidenschaft Kochfest-neu</title><meta name="robots" content="noindex,follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://github.com/bergfex/kochfest-neu/"><link rel="amphtml" href=""><link type="application/atom+xml" rel="alternate" href="https://github.com/bergfex/kochfest-neu/feed.xml"><meta property="og:title" content="Kochfest-neu"><meta property="og:image" content="https://github.com/bergfex/kochfest-neu/media/website/cropped-Erna.jpg"><meta property="og:site_name" content="Koachen aus Leidenschaft Kochfest-neu"><meta property="og:description" content=""><link rel="shortcut icon" href="https://github.com/bergfex/kochfest-neu/media/website/favicon.ico" type="image/x-icon"><link rel="shortcut icon" href="https://github.com/bergfex/kochfest-neu/media/website/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="https://github.com/bergfex/kochfest-neu/assets/css/style.css?v=02a395064ebd2d2ce08b30175940332b"><link href="https://fonts.googleapis.com/css?family=Nunito:300,600|Montserrat|Damion" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Kochfest-neu","logo":"https://github.com/bergfex/kochfest-neu/media/website/cropped-Erna.jpg","url":"https://github.com/bergfex/kochfest-neu"}</script><script async src="https://github.com/bergfex/kochfest-neu/assets/js/lazysizes.min.js?v=3150bf538edc0788afd7c673a0c5dfee"></script></head><body><div class="container"><header class="js-top"><a class="logo" href="https://github.com/bergfex/kochfest-neu"><img src="https://github.com/bergfex/kochfest-neu/media/website/cropped-Erna.jpg" alt="Kochfest-neu"></a><nav class="navbar js-navbar"><button class="navbar__toggle js-navbar__toggle" aria-expanded="false">Menu</button><ul class="navbar__menu"></ul></nav></header><main class="main"><section class="hero search-page"><header><h1>Search</h1></header><form action="https://github.com/bergfex/kochfest-neu/search.html"><input type="search" name="q" placeholder="search..." class="search-page__input"></form></section><div class="u-innerwrap"><script>(function () {
+					var cx = '';
+					var gcse = document.createElement('script');
+					gcse.type  = 'text/javascript';
+					gcse.async = true;
+					gcse.src   = 'https://cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();</script><gcse:searchresults-only></gcse:searchresults-only></div></main><footer class="footer"><div class="footer__copyright">Powered by Publii</div></footer></div><script defer="defer" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script><script defer="defer" src="https://github.com/bergfex/kochfest-neu/assets/js/scripts.min.js?v=3b94d4998f24c4cebb952de3a9b15b22"></script><div class="cookie-popup js-cookie-popup cookie-popup--uses-badge"><h2>Diese Webseite benutzt Cookies!</h2><p>Wählen Sie über die untenstehenden Kontrollkästchen aus, welche Cookies aktiviert werden sollen. Unsere Website verwendet Cookies, um den Website-Traffic und die Nutzeraktivität auf unserer Website zu überprüfen. <a href="#not-specified">datenschutz</a></p><form><input id="gdpr-necessary" name="gdpr-necessary" checked="checked" disabled="disabled" type="checkbox"> <label for="gdpr-necessary">Erforderlich</label> <input id="gdpr-functions" name="gdpr-functions" type="checkbox"> <label for="gdpr-functions">Funktionalität</label> <input id="gdpr-analytics" name="gdpr-analytics" type="checkbox"> <label for="gdpr-analytics">Analytisch</label><p class="cookie-popup__save-wrapper"><button type="submit" class="cookie-popup__save">Verstanden</button></p></form><span class="cookie-popup-label">Cookie Policy</span></div><script>(function() {
+                    function addScript (src, inline) {
+                        var newScript = document.createElement('script');
+    
+                        if (src) {
+                            newScript.setAttribute('src', src);
+                        }
+    
+                        if (inline) {
+                            newScript.text = inline;
+                        }
+    
+                        document.body.appendChild(newScript);
+                    }
+    
+                    var popup = document.querySelector('.js-cookie-popup');
+                    var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                    var save = popup.querySelector('button');
+                    var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                    var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                    
+    
+                    popup.addEventListener('click', function() {
+                        if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                            popup.classList.add('cookie-popup--is-sticky');
+                        }
+                    });
+    
+                    save.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        popup.classList.remove('cookie-popup--is-sticky');
+                        var allowedGroups = [];
+    
+                        for (var i = 0; i < checkboxes.length; i++) {
+                            if (checkboxes[i].checked) {
+                                var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                                var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+    
+                                for (var j = 0; j < scripts.length; j++) {
+                                    addScript(scripts[j].src, scripts[j].text);
+                                }
+    
+                                allowedGroups.push(groupName);
+                            }
+                        }
+    
+                        localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                        popup.classList.remove('cookie-popup--is-sticky');
+    
+                        setTimeout(function () {
+                            if (currentConfig) {
+                                window.location.reload();
+                            }
+                        }, 250);
+                    });
+    
+                    if (!currentConfig) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    } else {
+                        var allowedGroups = currentConfig.split(',');
+    
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+    
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+    
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                })();</script></body></html>

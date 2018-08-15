@@ -1,0 +1,14 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Kochfest-neu",
+    "description": "",
+    "home_page_url": "https://github.com/bergfex/kochfest-neu",
+    "feed_url": "https://github.com/bergfex/kochfest-neu/feed.json",
+    "user_comment": "",
+    "icon": "https://github.com/bergfex/kochfest-neu/media/website/cropped-Erna.jpg",
+    "author": {
+        "name": "Josef"
+    },
+    "items": [
+    ]
+}

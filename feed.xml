@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Kochfest-neu</title>
+    <link href="https://github.com/bergfex/kochfest-neu/feed.xml" rel="self" />
+    <link href="https://github.com/bergfex/kochfest-neu" />
+    <updated>1970-01-01T01:00:00+01:00</updated>
+    <author>
+        <name>Josef</name>
+    </author>
+    <id>https://github.com/bergfex/kochfest-neu</id>
+
+</feed>
